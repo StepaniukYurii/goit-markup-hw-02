@@ -1,13 +1,61 @@
 body {
   font-family: "Roboto";
   font-style: "Raleway";
+  color: #212121;
 }
 a {
   text-decoration: none;
+  color: #212121;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
 }
 .webstudio-logo {
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  color: #2196f3;
+}
+.studio-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+.studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2196f3;
+}
+.portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.mail-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2196f3;
+}
+.tel-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+.address-info {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
 }

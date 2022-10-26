@@ -26,18 +26,32 @@ button {
   line-height: 31px;
   color: #000000;
 }
-.studio {
+.studio-main {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #2196f3;
 }
-.portfolio {
+.studio-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.portfolio-main {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.portfolio-portfolio {
+  color: #2196f3;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
-.contacts {
+.contacts-main {
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -58,4 +72,106 @@ button {
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
+}
+.main-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.button-order {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  text-align: center;
+  border: hidden;
+}
+.buttons-portfolio {
+  display: flex;
+}
+.button-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 73px;
+  height: 38px;
+  border: hidden;
+  border-radius: 4px;
+}
+.button-web-sites {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 125px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+.button-appendices {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #f5f4fa;
+  width: 112px;
+  height: 38px;
+  border-radius: 4px;
+  border: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+.button-design {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #f5f4fa;
+  width: 103px;
+  height: 38px;
+  border-radius: 4px;
+  border: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+.button-marketing {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  width: 130px;
+  height: 38px;
+  border-radius: 4px;
+  border: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  background: #f5f4fa;
+}
+.hidden-tittle {
+  display: none;
+}
+.info-pages-tittle {
+  font-weight: 700;
+  color: #212121;
+  font-size: 36px;
+  line-height: 42px;
+}
+.team-info {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
 }

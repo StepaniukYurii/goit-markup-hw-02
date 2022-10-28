@@ -10,9 +10,7 @@ a {
 ul {
   list-style: none;
 }
-button {
-  cursor: pointer;
-}
+
 .webstudio-logo {
   font-family: "raleway";
   font-weight: 700;
@@ -26,29 +24,23 @@ button {
   line-height: 31px;
   color: #000000;
 }
-.studio-main {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #2196f3;
-}
-.studio-portfolio {
+.studio {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
 }
-.portfolio-main {
+.header-menu-studio .studio {
+  color: #2196f3;
+}
+.portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #212121;
 }
-.portfolio-portfolio {
+.header-menu-portfolio .portfolio {
   color: #2196f3;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
 }
 .contacts-main {
   color: #212121;
@@ -78,10 +70,21 @@ button {
   font-size: 44px;
   line-height: 60px;
 }
-.button-order {
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+button {
+  cursor: pointer;
+}
+.buttons-portfolio [type]:hover {
   color: white;
+  background-color: #2196f3;
+}
+.buttons-portfolio [type]:focus {
+  color: white;
+  background-color: #2196f3;
+}
+.button-order {
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #212121;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -91,6 +94,14 @@ button {
   text-align: center;
   border: hidden;
 }
+.button-order:hover {
+  background-color: #2196f3;
+  color: white;
+}
+.button-order:active {
+  background: #f5f4fa;
+  color: #212121;
+}
 .buttons-portfolio {
   display: flex;
 }
@@ -99,8 +110,8 @@ button {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #ffffff;
-  background: #2196f3;
+  color: #212121;
+  background: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   width: 73px;

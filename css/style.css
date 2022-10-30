@@ -2,50 +2,54 @@
   --main-text-color: #212121;
   --accent-color: #2196f3;
   --subtitle-color: #757575;
-  --background-color: #f5f5f5;
-  --accent-background-color: #2f303a;
+  --background-color: #ffffff;
+  --secondary-background-color: #2f303a;
   --button-background-color: #f5f4fa;
-  --block-background-color: #ffffff;
+  --border-color: #eeeeee;
+  --info-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: "Roboto";
-  font-style: "Raleway";
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
 }
-a {
-  text-decoration: none;
-}
-ul {
+.ul {
   list-style: none;
 }
-.main-header {
-  background-color: var(--block-background-color);
+.header {
+  line-height: 1.14;
+  background-color: var(--background-color);
 }
 
 .webstudio-logo {
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .studio-logo {
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
   color: #000000;
 }
 .studio {
-  color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  text-decoration: none;
+  color: var(--main-text-color);
 }
-
+.header-menu-studio {
+  letter-spacing: 0.02em;
+}
 .header-menu-studio [href]:focus,
 .header-menu-studio [href]:hover {
   color: var(--accent-color);
   border-radius: 4px;
+}
+.header-menu-portfolio {
+  letter-spacing: 0.02em;
 }
 .header-menu-portfolio [href]:focus,
 .header-menu-portfolio [href]:hover {
@@ -53,18 +57,22 @@ ul {
   border-radius: 4px;
 }
 .portfolio {
-  color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  text-decoration: none;
+  color: var(--main-text-color);
 }
 .contacts {
-  color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.header .communication {
+  letter-spacing: 0.02em;
 }
 .header .comm {
+  text-decoration: none;
   color: var(--subtitle-color);
 }
 .communication .comm:focus,
@@ -73,27 +81,31 @@ ul {
 }
 
 .main-section {
-  background: var(--accent-background-color);
+  background: var(--secondary-background-color);
 }
 .main-tittle {
-  color: var(--block-background-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .button {
-  border-radius: 4px;
-  height: 38px;
-  cursor: pointer;
-  background-color: var(--button-background-color);
-  border-style: hidden;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: var(--button-background-color);
+  border-style: hidden;
+}
+.buttons-portfolio {
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .buttons-portfolio .button:hover,
 .buttons-portfolio .button:focus {
-  color: var(--block-background-color);
+  color: var(--background-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -101,18 +113,19 @@ ul {
 .b-order:hover,
 .b-order:focus {
   background-color: var(--accent-color);
-  color: var(--block-background-color);
+  color: var(--background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .b-order:active {
   background: var(--button-background-color);
 }
-.button .order {
+.b-order {
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.87;
   width: 216px;
   height: 50px;
+  letter-spacing: 0.06em;
 }
 .b-everyone {
   width: 73px;
@@ -129,28 +142,38 @@ ul {
 .b-marketing {
   width: 130px;
 }
+.description-section {
+  letter-spacing: 0.03em;
+}
+.hidden-tittle {
+  display: none;
+}
 .list .title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .list .subtitle {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--subtitle-color);
+}
+.info-section {
+  letter-spacing: 0.03em;
 }
 .info-page-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
 }
 .team-section {
+  letter-spacing: 0.03em;
   background-color: var(--button-background-color);
 }
-.list-team {
+.info-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
 }
 .list-team .block {
   width: 270px;
@@ -158,51 +181,53 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--block-background-color);
+  background-color: var(--background-color);
 }
 .list-team .title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 }
 .list-team .subtitle {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: var(--subtitle-color);
 }
 .list-portfolio .title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .list-portfolio .subtitle {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--subtitle-color);
 }
 .list-portfolio .block {
   width: 370px;
   height: 404px;
-  background-color: var(--block-background-color);
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
 }
 .footer {
-  background-color: var(--accent-background-color);
+  letter-spacing: 0.03em;
+  background-color: var(--secondary-background-color);
 }
 .footer .comm {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  text-decoration: none;
+  color: var(--info-color);
 }
 .studio-logo-footer {
   color: #ffffff;
 }
 .address-info {
-  color: var(--block-background-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   font-style: normal;
+  color: #ffffff;
 }
